@@ -1,0 +1,43 @@
+body {
+  background: #ffa600;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+button {
+  background: #ffa600;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+  background: #ffffff;
+  border: solid 1px #ffffff;
+  color: #ffa600;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+}
+
+footer > img {
+  padding-right: 10px;
+  height: 30px;
+  width: 30px;
+}
